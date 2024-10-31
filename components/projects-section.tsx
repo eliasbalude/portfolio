@@ -75,8 +75,8 @@ const projects = [
     description: 'A well organized task management tool with real-time updates.',
     image: '/images/projects/quikeytask.png',
     technologies: ['React', 'Firebase', 'Next js'],
-    github: 'https://github.com/uchuulaa/quickeytask',
-    demo: 'https://github.com/uchuulaa/quickeytask',
+    github: 'https://github.com/uchuulaa/taskmanagement',
+    demo: 'https://taskly-three.vercel.app/',
     details: {
       overview: 'This app is a secure task management platform for personal and team projects. With Firebase for easy registration and sign-in, users can assign tasks low, medium, or high priority, each with distinct color codes. It features filtering options to sort tasks by priority or completion status, allowing users to create, delete, update, or mark tasks as complete. This streamlined approach enhances productivity and organization.',
       features: [
