@@ -43,7 +43,7 @@ export function Navbar() {
           <Link href="/" className="flex items-center space-x-2">
             <div className="relative w-10 h-10 rounded-full overflow-hidden border-2 border-primary">
               <Image
-                src="/images/profile/elas.png"
+                src="/images/logo/logo.png"
                 alt="Logo"
                 fill
                 className="object-cover"
