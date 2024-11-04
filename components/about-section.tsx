@@ -65,7 +65,7 @@ export function AboutSection() {
           >
             <div className="relative aspect-square rounded-full overflow-hidden max-w-md mx-auto border-4 border-primary/20">
               <Image
-                src="/images/profile/elas.png"
+                src="/images/profile/profile.jpg"
                 alt="Profile picture"
                 fill
                 className="object-cover transform hover:scale-110 transition-transform duration-500"
