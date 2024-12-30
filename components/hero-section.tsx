@@ -50,7 +50,7 @@ export function HeroSection() {
           transition={{ duration: 0.5, delay: 0.6 }}
         >
           <Button variant="ghost" size="icon" asChild>
-            <a href="https://github.com/uchuulaa" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/eliasbalude" target="_blank" rel="noopener noreferrer">
               <Github className="h-5 w-5" />
             </a>
           </Button>
