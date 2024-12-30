@@ -22,7 +22,7 @@ const projects = [
     description: 'A premium e-commerce platform built with Next.js and Tailwind CSS. Elmart offers a curated selection of high-quality products with advanced filtering and animated logo.',
     image: '/images/projects/ecommerce.png',
     technologies: ['Next.js', 'Tailwind CSS'],
-    github: 'https://github.com/uchuulaa/elmart',
+    github: 'https://github.com/eliasbalude/elmart',
     demo: 'https://elmart-three.vercel.app/',
     isPrivate: false,
     details: {
@@ -52,7 +52,7 @@ const projects = [
     description: 'A well organized task management tool with real-time updates.',
     image: '/images/projects/quikeytask.png',
     technologies: ['React', 'Firebase', 'Next.js'],
-    github: 'https://github.com/uchuulaa/taskmanagement',
+    github: 'https://github.com/eliasbalude/taskmanagement',
     demo: 'https://taskly-three.vercel.app/',
     isPrivate: false,
     details: {
@@ -75,7 +75,7 @@ const projects = [
     description: 'A full-featured ERP platform with real-time inventory management, customer, supplier, product, and order management features.',
     image: '/images/projects/erp.png',
     technologies: ['React', 'Next.js', 'Node.js'],
-    github: 'https://github.com/uchuulaa',
+    github: 'https://github.com/eliasbalude',
     demo: '',
     isPrivate: true,
     details: {
@@ -107,9 +107,9 @@ const projects = [
     description: 'An e-learning platform enhancing educational access and streamlining course management.',
     image: '/images/projects/eduopia.png',
     technologies: ['React', 'Next.js', 'Node.js'],
-    github: 'https://github.com/uchuulaa/',
-    demo: 'https://github.com/uchuulaa',
-    isPrivate: true,
+    github: 'https://github.com/eliasbalude/',
+    demo: 'https://ischool.et/en',
+    isPrivate: false,
     details: {
       overview: 'An e-learning platform enhancing educational access and streamlining course management developed when I was intern at Ibex Tech.',
       features: [
