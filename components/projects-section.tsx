@@ -130,7 +130,7 @@ const projects = [
     title: 'FitTrack - AI-Powered Fitness Platform',
     description: 'A comprehensive fitness tracking platform with AI-powered personalized workout and meal recommendations, built with Next.js and Google Cloud Platform.',
     image: '/images/projects/fittrack.png',
-    technologies: ['Next.js', 'Tailwind CSS', 'Google Cloud', 'Firebase', 'Gemini AI'],
+    technologies: ['Next.js', 'Tailwind CSS', 'Cloud', 'AI'],
     github: 'https://github.com/eliasbalude/fitness-track',
     demo: 'https://fitness-track--fitness-tracker-458718.us-central1.hosted.app/',
     isPrivate: false,
@@ -163,22 +163,11 @@ const projects = [
 
 const technologies = [
   'All',
-  'React',
   'Next.js',
+  'React',
   'Node.js',
-  'Firebase',
-  'MySQL',
-  'PostgreSQL',
-  'Google Cloud',
-  'Gemini AI',
-  'CI/CD',
-  'TypeScript',
-  'Tailwind CSS',
-  'REST API',
-  'Express',
-  'Prisma',
-  'Django',
-  'Laravel'
+  'Cloud',
+  'AI'
 ];
 
 export function ProjectsSection() {
