@@ -126,9 +126,60 @@ const projects = [
       myRole: 'My role involved working on both frontend and backend tasks using React, Next.js, Prisma, and MySQL. Key responsibilities included implementing admin and super admin dashboards, developing role-based access control (RBAC), and creating course management features for efficient content handling while working within an Agile team.',
     },
   },
+  {
+    title: 'FitTrack - AI-Powered Fitness Platform',
+    description: 'A comprehensive fitness tracking platform with AI-powered personalized workout and meal recommendations, built with Next.js and Google Cloud Platform.',
+    image: '/images/projects/fittrack.png',
+    technologies: ['Next.js', 'Tailwind CSS', 'Google Cloud', 'Firebase', 'Gemini AI'],
+    github: 'https://github.com/eliasbalude/fitness-track',
+    demo: 'https://fitness-track--fitness-tracker-458718.us-central1.hosted.app/',
+    isPrivate: false,
+    details: {
+      overview: 'FitTrack is an AI-powered fitness platform that provides personalized workout and meal recommendations. It features real-time progress tracking, comprehensive analytics, and seamless integration with Google Cloud Platform for robust data management and hosting.',
+      features: [
+        'AI-powered personalized workout plans',
+        'Customized meal recommendations',
+        'Real-time progress tracking',
+        'Comprehensive analytics dashboard',
+        'Secure user authentication',
+        'Cloud-based data storage'
+      ],
+      techStack: {
+        frontend: ['Next.js', 'Tailwind CSS', 'TypeScript'],
+        backend: ['Google Cloud Functions', 'Firebase', 'Gemini AI'],
+      },
+      keyFeatures: [
+        'Personalized AI recommendations',
+        'Real-time progress tracking',
+        'Secure cloud storage',
+        'Responsive and modern UI',
+        'CI/CD pipeline integration'
+      ],
+      deployment: ['Firebase Hosting', 'Google Cloud Platform'],
+      myRole: 'I developed the entire platform, implementing AI-powered recommendations using Gemini AI, setting up cloud infrastructure with Google Cloud Platform, and creating a responsive frontend with Next.js and Tailwind CSS. I also established CI/CD pipelines for automated deployment.',
+    },
+  },
 ];
 
-const technologies = ['All', 'React', 'Next.js', 'Node.js', 'Firebase', 'MySQL', 'PostgreSQL'];
+const technologies = [
+  'All',
+  'React',
+  'Next.js',
+  'Node.js',
+  'Firebase',
+  'MySQL',
+  'PostgreSQL',
+  'Google Cloud',
+  'Gemini AI',
+  'CI/CD',
+  'TypeScript',
+  'Tailwind CSS',
+  'REST API',
+  'Express',
+  'Prisma',
+  'Django',
+  'Laravel'
+];
 
 export function ProjectsSection() {
   const [filter, setFilter] = useState('All');

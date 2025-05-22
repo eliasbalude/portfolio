@@ -33,6 +33,17 @@ const skills = [
       { name: 'Django', icon: Code2 },
       { name: 'Laravel', icon: Code2 },
       { name: 'PostgreSQL', icon: Database },
+      { name: 'Firebase', icon: Database },
+    ],
+  },
+  {
+    category: 'Cloud & DevOps',
+    icon: Terminal,
+    technologies: [
+      { name: 'Google Cloud', icon: Server },
+      { name: 'Firebase', icon: Server },
+      { name: 'CI/CD', icon: Terminal },
+      { name: 'GitHub Actions', icon: Terminal },
     ],
   },
   {

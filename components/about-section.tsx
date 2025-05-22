@@ -16,6 +16,9 @@ const skills = [
   { name: 'Tailwind CSS', category: 'Styling' },
   { name: 'PostgreSQL', category: 'Database' },
   { name: 'Firebase', category: 'Database' },
+  { name: 'Google Cloud', category: 'Cloud' },
+  { name: 'CI/CD', category: 'DevOps' },
+  { name: 'GitHub Actions', category: 'DevOps' },
 ];
 
 export function AboutSection() {
@@ -95,19 +98,23 @@ export function AboutSection() {
           <Card className="p-6">
             <div className="space-y-4">
               <p className="text-lg">
-                I'm a passionate Full Stack Developer with experience in building modern web applications.
-                My journey in tech started with coursework projects fueled with internships, where I developed features
-                used by thousands of users daily.
+                Hi there! I'm Elias, a passionate Full Stack Developer with a keen eye for creating elegant, user-friendly applications. My journey in tech began with hands-on experience in internships and coursework projects, where I developed features that impact thousands of users daily.
               </p>
               
               <p className="text-lg">
-                Currently, I'm focused on creating scalable applications using React, Next.js, and various
-                backend technologies. I love learning new technologies and sharing knowledge with the
-                developer community.
+                I specialize in building modern web applications using React, Next.js, and various backend technologies. What sets me apart is my ability to bridge the gap between frontend aesthetics and backend functionality, creating seamless user experiences while ensuring robust system architecture.
+              </p>
+
+              <p className="text-lg">
+                Currently, I'm diving deep into cloud technologies and AI integration, working on exciting projects that combine my full-stack expertise with cutting-edge solutions. I'm particularly proud of my recent work on an AI-powered fitness platform that demonstrates my ability to integrate advanced technologies into practical applications.
+              </p>
+
+              <p className="text-lg">
+                When I'm not coding, I'm constantly learning new technologies and contributing to the developer community. I believe in writing clean, maintainable code and creating solutions that make a real impact.
               </p>
 
               <div className="space-y-2">
-                <h3 className="text-xl font-semibold">Skills</h3>
+                <h3 className="text-xl font-semibold">Core Competencies</h3>
                 <div className="flex flex-wrap gap-2">
                   {skills.map((skill) => (
                     <Badge key={skill.name} variant="secondary">
