@@ -84,11 +84,11 @@ export function AboutSection() {
                 </div>
                 <div className="flex items-center gap-3 p-3 rounded-lg bg-primary/5">
                   <Database className="h-5 w-5 text-primary" />
-                  <span className="text-sm font-medium">Database Specialist</span>
+                  <span className="text-sm font-medium">Software Engineer</span>
                 </div>
                 <div className="flex items-center gap-3 p-3 rounded-lg bg-primary/5">
                   <Cloud className="h-5 w-5 text-primary" />
-                  <span className="text-sm font-medium">Cloud Engineer</span>
+                  <span className="text-sm font-medium">Cloud and AI enthusiast</span>
                 </div>
               </div>
 
